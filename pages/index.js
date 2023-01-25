@@ -4,7 +4,8 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import data from '../data/education.json'
 import { useState } from 'react'
-import Card from '../components/Card'
+import Card from '../components/cards'
+import Header from '../components/header'
 import Link from 'next/link'
 
 
@@ -26,6 +27,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        
         <Link href="about">About</Link>
         {
           information && information.map((info, index) => {

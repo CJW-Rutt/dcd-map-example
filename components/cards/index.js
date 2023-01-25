@@ -1,3 +1,11 @@
+/**
+ * @author      Corey J. Rutt
+ * @version     1.0
+ * 
+ * @description A function for displaying icons related to what color is set to color.
+ * @returns     An icon depending on the color value.
+ */
+
 export default function Card({
     degree="none",
     colour="purple",
