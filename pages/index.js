@@ -6,7 +6,6 @@ import data from '../data/education.json'
 import { useState } from 'react'
 import Card from '../components/cards'
 import Header from '../components/header'
-import Link from 'next/link'
 
 
 
@@ -27,8 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        
-        <Link href="about">About</Link>
+        <Header />
         {
           information && information.map((info, index) => {
             if (info.department.toLowerCase() === "business") {

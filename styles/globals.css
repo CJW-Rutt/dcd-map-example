@@ -38,11 +38,14 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --header-bg-color: #003c71;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
+    --background-color: #FAF9F6;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
@@ -105,3 +108,4 @@ a {
     color-scheme: dark;
   }
 }
+

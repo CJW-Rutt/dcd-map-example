@@ -1,0 +1,7 @@
+/* HEADER STYLE */
+
+.header {
+    min-height: 100px;
+    background-color: var(--header-bg-color);
+    width: 100vw;
+}
