@@ -4,4 +4,128 @@
     min-height: 100px;
     background-color: var(--header-bg-color);
     width: 100vw;
+    box-shadow: 5px 5px 10px gray;  
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.header_logo {
+    max-height: 4rem;
+}
+
+.header_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20rem;
+    font-family: 'Roboto';
+}
+
+.course_container {
+    display: flex;
+    flex-direction: row;
+    max-width: 850px;
+    margin: 30px 0 30px 0;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+}
+
+.degree_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.degree_name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 20px 20px;
+}
+
+.degree_name h2 {
+    padding-right: 3px;
+    padding-left: 10px;
+}
+
+.degree_container p {
+    padding: 0px 20px 0px 20px;
+}
+
+.course_image img {
+    width: 300px;
+    padding: 20px;
+}
+
+.footer {
+    max-height: 100px;
+    background-color: var(--header-bg-color);
+    width: 100vw;
+    box-shadow: 5px 5px 10px gray;  
+    margin-top: 50px;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.footer_logo {
+    max-height: 2rem;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20rem;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.footer p {
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 428px) {
+    .course_container {
+      flex-direction: column !important;
+    }
+
+    .course_image img {
+        width: 400px;
+    }
+
+    .header_container a {
+        margin-top: 12px;
+    }
+
+    .header_logo {
+        max-height: 3rem;
+    }
+
+    .degree_container {
+        padding: 0px 20px 20px 20px;
+    }
+
+    .course_image {
+        width: 400px;
+    }
+
+    .footer_container {
+        padding: 1rem 1rem 1rem 4rem;
+    }
 }

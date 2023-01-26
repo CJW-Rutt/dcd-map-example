@@ -5,7 +5,8 @@
         "gpa": 3.8,
         "department": "Business",
         "degree": "Finance",
-        "graduted": 2014
+        "graduted": 2014,
+        "description": "Are you thinking of an accounting career but are also interested in finance and investments? CRIT’s Finance Diploma Program offers you unique, practical training for a solid foundation in accounting, economics, finance, and investing principles. All the courses in this program are designed to teach you to the necessary skills and confidence to help you pursue a career in finance while preparing you for accelerated study to become an accountant."
     },
     {
         "studentNumber": "A0001234",
@@ -13,7 +14,8 @@
         "gpa": 3.5,
         "department": "Business",
         "degree": "Accounting",
-        "graduted": 2010
+        "graduted": 2010,
+        "description": "Set the stage for a prosperous career in business with the Accounting diploma program at CRIT. By training with knowledgeable, experienced instructors who are respected professionals in the accounting industry, you’ll learn how accounting is the backbone of businesses big and small."
     },
     {
         "studentNumber": "A0007890",
@@ -21,7 +23,8 @@
         "gpa": 3.2,
         "department": "Computing",
         "degree": "Applied Software Development Certificate",
-        "graduted": 2018
+        "graduted": 2018,
+        "description": "Participants start by learning to write code in the most popular programming languages, Python, and Java. After a series of three programming fundamentals courses, they progress to actual software application development in the follow-on: C, Java, C# , and C++ courses."
     },
     {
         "studentNumber": "A0007828",
@@ -29,7 +32,8 @@
         "gpa": 3.9,
         "department": "Computing",
         "degree": "Computer Systems Diploma",
-        "graduted": 2021
+        "graduted": 2021,
+        "description": "Flexible delivery of the CST Diploma at night and on the weekends is achieved through a series of laddered credentials leading to the Computer Systems Bachelor of Technology (CST BTech). Participants are introduced to solving object-oriented design problems and building applications in C++, along with using Algorithms, design patterns and higher-level computing skills."
     },
     {
         "studentNumber": "A0003425",
@@ -37,6 +41,7 @@
         "gpa": 3.2,
         "department": "Computing",
         "degree": "Applied Computer Information Systems Certificate",
-        "graduted": 2021
+        "graduted": 2021,
+        "description": "A wide variety of electives are offered to suit individual interests including: IT project management, mathematics for computing, relational database, business intelligence (BI) and analytic tools, expert level word processing, and spreadsheets, plus business communication and technical writing foundations."
     }
 ]

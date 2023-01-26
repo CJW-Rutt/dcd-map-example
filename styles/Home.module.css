@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem 6rem 6rem 6rem;
+  padding: 0rem 6rem 0rem 6rem;
   min-height: 100vh;
   background-color: var(--background-color);
 }
@@ -275,5 +275,13 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 428px) {
+  .main {
+    padding: 0rem 1rem 0rem 1rem;
   }
 }

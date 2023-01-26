@@ -13,10 +13,12 @@ export default function Header() {
     return (
         <>
             <header className={styles.header}>
-                <img className='' src="" />
-                <div>
-                    <Link href="/">Courses</Link>
-                    <Link href="about">About</Link>
+                <div className={styles.header_container}>
+                    <Link href="/"><img className={styles.header_logo} src="/logoalt1.png" /></Link>
+                    <div className={styles.header_links}>
+                        <Link href="/">Courses</Link>
+                        <Link href="about">About</Link>
+                    </div>
                 </div>
             </header>
         </>
